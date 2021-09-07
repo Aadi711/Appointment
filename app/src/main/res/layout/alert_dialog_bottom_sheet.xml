@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/alert_dialog_bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    android:backgroundTint="@android:color/transparent"
+    app:behavior_peekHeight="200dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CustomCardViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:backgroundTint="@color/white"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+
+                style="@style/roboto_bold_16sp"
+                android:textColor="@color/main_heading_text_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Are you sure you want to confirm this address? " />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1">
+                   <com.google.android.material.button.MaterialButton
+                       android:id="@+id/yes_button"
+                       android:layout_width="match_parent"
+                       android:layout_height="50dp"
+                       android:layout_marginStart="8dp"
+                       android:layout_marginTop="25dp"
+                       android:layout_marginEnd="8dp"
+                       android:backgroundTint="@android:color/holo_blue_light"
+                       android:elevation="0dp"
+                       android:stateListAnimator="@null"
+                       android:text="@string/yes"
+                       android:textAllCaps="false"
+                       android:textColor="@color/white"
+                       app:cornerRadius="10dp"
+                       app:elevation="0dp" />
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1">
+                   <com.google.android.material.button.MaterialButton
+                       android:id="@+id/no_button"
+                       android:layout_width="match_parent"
+                       android:layout_height="50dp"
+                       android:layout_marginStart="8dp"
+                       android:layout_marginTop="25dp"
+                       android:layout_marginEnd="8dp"
+                       android:backgroundTint="@android:color/holo_blue_light"
+                       android:elevation="0dp"
+                       android:stateListAnimator="@null"
+                       android:text="@string/no"
+                       android:textAllCaps="false"
+                       android:textColor="@color/white"
+                       app:cornerRadius="10dp"
+                       app:elevation="0dp" />
+               </LinearLayout>
+           </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

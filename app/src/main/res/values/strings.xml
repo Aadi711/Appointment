@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Appointment</string>
+    <bool name="IsLocal">true</bool>
+
+    <string name="welcome">Welcome</string>
+    <string name="sign_up_social">Signup with social of fill the form to continue</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up"> Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="al_least_8_characters">Al least 8 characters</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="add">add</string>
+    <string name="please_enter_the_4_digit_code">Please enter the 4-digit code send to you at</string>
+    <string name="email_verification">Email Verification</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="appointments">Appointments</string>
+    <string name="make_appointment_management_easy">Make Appointment Management Easy!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="today_s">Today\'s</string>
+    <string name="previous">Previous</string>
+    <string name="upcoming">upcoming</string>
+    <string name="service_terms">Service Terms</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="support">Support</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="error_gif">Error Found</string>
+    <string name="update">Update</string>
+    <string name="barber">Barber</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="description">Description</string>
+    <string name="send">Send</string>
+    <string name="change">Change</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

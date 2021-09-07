@@ -1,0 +1,174 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Appointment" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Appointment.NoActionBar">
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+
+    <style name="roboto_bold_28sp">
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/main_heading_text_color</item>
+
+    </style>
+
+    <style name="roboto_bold_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+    <style name="roboto_bold_12sp">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/second_heading_text_color</item>
+
+    </style>
+
+    <style name="roboto_regular_12sp">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/second_heading_text_color</item>
+
+    </style>
+
+    <style name="roboto_regular_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/profile_services_text_color</item>
+
+    </style>
+
+    <style name="roboto_regular_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/fields_text_hint_color</item>
+
+    </style>
+
+    <style name="roboto_medium_8sp">
+        <item name="android:textSize">8sp</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/main_heading_text_color</item>
+
+    </style>
+
+    <style name="roboto_medium_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/main_heading_text_color</item>
+
+    </style>
+
+    <style name="roboto_medium_12sp">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/employee_screen_time_address_color</item>
+
+    </style>
+
+    <style name="roboto_regular_8sp">
+        <item name="android:textSize">8sp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/appointment_reason_color</item>
+
+    </style>
+
+    <style name="roundedCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+    </style>
+
+
+
+    <style name="completeRoundedCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">9dp</item>
+    </style>
+
+    <style name="roundedCornersImageView50" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="CalenderViewCustom" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/text_blue_color</item>
+        <item name="colorPrimary">@color/text_blue_color</item>
+        <item name="android:textColor">@color/text_blue_color</item>
+        <item name="android:textColorPrimary">@color/text_blue_color</item>
+
+    </style>
+
+
+    <style name="CalenderViewDateCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/text_blue_color</item>
+
+    </style>
+
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/text_blue_color</item>
+    </style>
+    <style name="edittext_hint_style">
+    <item name="android:textColorHint">@color/fields_text_hint_color</item>
+    <item name="android:textColor">@color/black</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:fontFamily">@font/roboto_regular</item>
+    <item name="android:background">@null</item>
+    <item name="android:paddingStart">13dp</item>
+    <item name="android:paddingEnd">13dp</item>
+    </style>
+    <style name="edittext_white_rounded_hint_Match_Fix_style" parent="edittext_hint_style">
+        <item name="android:background">@drawable/rounded_white_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    <style name="CustomCardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay_card_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">36dp</item>
+        <item name="cornerSizeTopLeft">36dp</item>
+    </style>
+
+    <style name="CustomToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <!-- HERE ARE THE CHANGES - Change color of different texts -->
+        <item name="android:textColorPrimary">@color/main_heading_text_color</item>
+        <item name="android:textColor">@color/main_heading_text_color</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+
+    </style>
+
+    <style name="Theme.Appointment.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Appointment.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

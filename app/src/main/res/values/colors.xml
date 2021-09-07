@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="screen_bakground_color">#E5E5E5</color>
+    <color name="main_heading_text_color">#4F4F4F</color>
+    <color name="second_heading_text_color">#9912121D</color>
+    <color name="fields_text_hint_color">#4D12121D</color>
+    <color name="privacy_policy_signup_text_color">#717177</color>
+
+    <color name="loader_background_color">#d7d8d3</color>
+    <color name="loader_spinner_color">#8c8c8a</color>
+    <color name="view_line_color">#4D12121D</color>
+    <color name="text_blue_color">#259cd5</color>
+    <color name="otp_background_color">#1A12121D</color>
+    <color name="otp_email_text_color">#202030</color>
+    <color name="appointment_home_layout_color">#dee1e2</color>
+    <color name="tabs_item_default_color">#BCBCBC</color>
+    <color name="tabs_item_background_default_color">#EBEBEB</color>
+    <color name="confirmed_color">#40BB4C</color>
+    <color name="pending_color">#E9BD24</color>
+    <color name="cancelled_color">#FF0000</color>
+    <color name="appointment_reason_color">#6B6666</color>
+    <color name="profile_services_text_color">#2B312C</color>
+    <color name="employee_screen_time_address_color">#808080</color>
+    <color name="another_dates_label_color">#4D22215B</color>
+    <color name="change_password_sub_heading_text_color">#992B312C</color>
+
+
+</resources>

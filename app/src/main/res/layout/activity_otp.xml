@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.OtpActivity">
+
+    <include
+        android:id="@+id/custom_toolbar"
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="47dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/custom_toolbar">
+
+        <TextView
+            android:id="@+id/forget_password_text"
+            style="@style/roboto_bold_28sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_verification" />
+
+        <TextView
+            style="@style/roboto_bold_12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/please_enter_the_4_digit_code" />
+
+        <TextView
+            style="@style/roboto_bold_12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/email"
+            android:textColor="@color/otp_email_text_color" />
+
+        <TextView
+            style="@style/roboto_regular_12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="@string/resend_code"
+            android:textColor="@color/second_heading_text_color" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="35dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.mukesh.OtpView
+            android:id="@+id/otp_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:inputType="number"
+            android:itemBackground="@drawable/otp_item_background"
+            android:textColor="@android:color/black"
+            app:OtpCursorColor="@color/white"
+            app:OtpItemCount="4"
+            app:OtpItemSpacing="20dp"
+            app:OtpItemWidth="56dp"
+            app:OtpItemHeight="56dp"
+            app:OtpLineColor="@color/white"
+            app:OtpState_filled="true"
+            app:OtpLineWidth="1dp"
+            app:OtpViewType="none" />
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/next_button"
+            style="@style/roboto_bold_16sp"
+
+            android:layout_width="160dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="69dp"
+            android:backgroundTint="@color/text_blue_color"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:text="@string/next"
+
+            android:textAllCaps="false"
+            app:elevation="10dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
